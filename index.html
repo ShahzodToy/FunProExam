@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/anor_logo.jpg" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Anor | The first Uzbek national digital bank</title>
+  </head>
+  <body>
+    <script defer src="script.js"></script>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/anor_logo.jpg"
+          alt="Anor logo"
+          class="nav__logo"
+          id="logo"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--4">Our team</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Create bank account</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          The first Uzbek national digital bank
+        </h1>
+        <h4>Real installment plan without interest and overpayments.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="img/header.jpg"
+          class="header__img"
+          alt="Anor bank "
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need in a modern bank and more.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/item1.jpg"
+          data-src="img/item1.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% digital bank</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+            debitis ducimus.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch your money grow</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Autem rem vitae esse porro, voluptates quod hic quos similique 
+            temporibus quibusdam.
+          </p>
+        </div>
+        <img
+          src="img/item2.jpg"
+          data-src="img/item2.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/item3.jpg"
+          data-src="img/item3.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Free debit card included</h5>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Eos modi excepturi dicta optio sit id sunt a, eligendi animi, 
+            molestiae, nesciunt facere tempora laboriosam officiis!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Transfers</h2>
+        <h3 class="section__header">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, pariatur.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Instant payments
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Instant Loans
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Instant fee payment
+          </button>
+        </div>
+
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Tranfser money to anyone, instantly!
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Make a payment and after pay for bills
+          </h5>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            No need to ask relatives fast more and more
+          </h5>
+          <p>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ex hic officiis cumque explicabo in suscipit! Alias itaque sapiente officia a omnis porro rem consequatur.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--4">
+      <div class="section__title">
+        <h2 class="section__description">Our Team</h2>
+        <h3 class="section__header">Meet the people behind Anor Bank</h3>
+      </div>
+    
+      <div class="team">
+        <div class="team__member">
+          <img src="img/user-1.jpg" alt="John Smith" class="team__photo" />
+          <h4 class="team__name">John Smith</h4>
+          <p class="team__role">CEO & Founder</p>
+          <p class="team__bio">John brings over 20 years of experience in banking and finance to lead Anor Bank's vision.</p>
+        </div>
+        <div class="team__member">
+          <img src="img/user-2.jpg" alt="John Smith" class="team__photo" />
+          <h4 class="team__name">John Smith</h4>
+          <p class="team__role">CEO & Founder</p>
+          <p class="team__bio">John brings over 20 years of experience in banking and finance to lead Anor Bank's vision.</p>
+        </div>
+        <div class="team__member">
+          <img src="img/user-3.jpg" alt="John Smith" class="team__photo" />
+          <h4 class="team__name">John Smith</h4>
+          <p class="team__role">CEO & Founder</p>
+          <p class="team__bio">John brings over 20 years of experience in banking and finance to lead Anor Bank's vision.</p>
+        </div>
+        <div class="team__member">
+          <img src="img/user-1.jpg" alt="John Smith" class="team__photo" />
+          <h4 class="team__name">John Smith</h4>
+          <p class="team__role">CEO & Founder</p>
+          <p class="team__bio">John brings over 20 years of experience in banking and finance to lead Anor Bank's vision.</p>
+        </div>
+        <div class="team__member">
+          <img src="img/user-2.jpg" alt="Sarah Johnson" class="team__photo" />
+          <h4 class="team__name">Sarah Johnson</h4>
+          <p class="team__role">Chief Technology Officer</p>
+          <p class="team__bio">Sarah is the tech guru responsible for developing our secure and modern banking platform.</p>
+        </div>
+        <div class="team__member">
+          <img src="img/user-3.jpg" alt="James Lee" class="team__photo" />
+          <h4 class="team__name">James Lee</h4>
+          <p class="team__role">Head of Operations</p>
+          <p class="team__bio">James ensures smooth operations and a seamless banking experience for all our clients.</p>
+        </div>
+        <!-- Add more team members as needed -->
+      </div>
+    </section>
+    
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Still thinking about ?</h2>
+        <h3 class="section__header">
+          More than thousand od people are usign our services
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever!</h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium quas quisquam non? Quas voluptate nulla minima
+              deleniti optio ullam nesciunt, numquam corporis et asperiores
+              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+             
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+            
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school banks
+            </h5>
+            <blockquote class="testimonial__text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus blanditiis beatae vel voluptate, porro error vitae sapiente facere! Doloremque neque quasi omnis ab totam, eum tempore delectus necessitatibus enim pariatur?
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to join Bankist was one year ago. The second best is
+          today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your free account today!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/anor_logo.jpg" alt="Logo" class="footer__logo" />
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
